@@ -9,11 +9,11 @@ public class Verificador
      return interior;
 }
     public void circuloAcertado(double puntoX,double puntoY){
-        if(esInterior(puntoX,puntoY,0.1)){
+        if(esInterior(puntoX,puntoY,0.05)){
             System.out.println("Circulo menor");
         }
         else{
-            if(esInterior(puntoX,puntoY,0.5)){
+            if(esInterior(puntoX,puntoY,0.4)){
                 System.out.println("Circulo medio");
             }
             else{

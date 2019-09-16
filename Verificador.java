@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class Verificador
+public class Blanco
 {
    public boolean esInterior(double puntoX,double puntoY,double radioCirculo){
      boolean interior=false;
